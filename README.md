@@ -11,8 +11,14 @@ m_p(a, d) = m_p(b, c)
 ```
 where
 ```math
-m_p(a, d) = \left( \dfrac{1}{2} (a^p + d^p) \right)^{1/p}
+m_p(a, d) = \begin{cases}
+            \left(\frac{1}{2}(a^p + d^p)\right)^{1/p} \text{, if } p \in \mathbb{R}^* \\
+              a^{1/2}  d^{1/2} \text{, if } p = 0 \\
+             \min \{|a|, |d|\} \text{, if } p = -\infty \\
+             \max \{|a|, |d|\} \text{, if } p = +\infty,
+        \end{cases}
 ```
+for non-null real $`p`$, and 
 and the exponentiation is considered using the principal branch of the complex logarithm, 
 which is defined through the principal argument.
 
