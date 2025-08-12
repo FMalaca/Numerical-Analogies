@@ -17,7 +17,7 @@ m_p(a, d) = \begin{cases}
              \max\{|a|,|d|\} \text{, if } p = +\infty,
         \end{cases}
 ```
-with the exponentiations considered using the principal branch of the complex logarithm, 
+with the exponentiations considering the principal branch of the complex logarithm, 
 which is defined through the principal argument.
 
 **Library purpose:**
