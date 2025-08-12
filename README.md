@@ -12,9 +12,9 @@ where
 ```math
 m_p(a, d) = \begin{cases}
             \left(\frac{1}{2}(a^p + d^p)\right)^{1/p} \text{, if } p \text{ is non-null real} \\
-              a^{1/2}  d^{1/2} \text{, if } p = 0 \\
-             \min \{|a|, |d|\} \text{, if } p = -\infty \\
-             \max \{|a|, |d|\} \text{, if } p = +\infty,
+              a^{1/2} d^{1/2} \text{, if } p = 0 \\
+             \min\{|a|,|d|\} \text{, if } p = -\infty \\
+             \max\{|a|,|d|\} \text{, if } p = +\infty,
         \end{cases}
 ```
 and the exponentiations are considered using the principal branch of the complex logarithm, 
