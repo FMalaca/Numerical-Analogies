@@ -12,7 +12,7 @@ m_p(a, d) = m_p(b, c)
 where
 ```math
 m_p(a, d) = \begin{cases}
-            \left(\frac{1}{2}(a^p + d^p)\right)^{1/p} \text{, if } p \in \mathbb{R}^* \\
+            \left(\frac{1}{2}(a^p + d^p)\right)^{1/p} \text{, if } p \text{is non-null real} \\
               a^{1/2}  d^{1/2} \text{, if } p = 0 \\
              \min \{|a|, |d|\} \text{, if } p = -\infty \\
              \max \{|a|, |d|\} \text{, if } p = +\infty,
