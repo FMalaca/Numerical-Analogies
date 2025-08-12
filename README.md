@@ -2,7 +2,7 @@
 This document provides functions for computing analogical powers.
 
 **Definition:**
-An analogy in $`p`$ holds between four numbers when
+An analogy in $`p`$ holds between four numbers, $`(a, b, c, d)`$, when
 the generalized mean in $`p`$ of the extremes
 is equal to
 the generalized mean in $`p`$ of the means.
