@@ -21,4 +21,4 @@ with the exponentiations considered using the principal branch of the complex lo
 which is defined through the principal argument.
 
 **Library purpose:**
-The present library computes the analogical powers of a given quadruple of non-null numbers, $`(a, b, c, d)`$.
+The present library computes the analogical powers of a given quadruple of non-null numbers.
