@@ -1,5 +1,4 @@
 # Functions for numerical analogy
-This document provides functions for computing analogical powers.
 
 **Definition:**
 An analogy in $`p`$ holds between four numbers, $`(a, b, c, d)`$, when
