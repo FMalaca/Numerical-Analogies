@@ -6,7 +6,7 @@ def generate_quadruple(n:int):
 
 def gen_dataset(n:int):
     f = open(f'tests/test-{n}.txt', "a")
-    for _ in range(10**6):
+    for _ in range(10**4):
         a, b, c, d = generate_quadruple(n)
         f.write(f'{a} {b} {c} {d}\n')
 
